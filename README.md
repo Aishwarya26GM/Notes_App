@@ -1,5 +1,9 @@
 # Notes App
 
+**GitHub:** https://github.com/Aishwarya26GM/Notes_App
+
+**Live Demo:** https://aishwaryagm123.pythonanywhere.com
+
 A simple notes app made with Python Flask and SQLAlchemy.
 Users can sign up, log in, and add, edit and delete their own notes.
 
@@ -82,7 +86,7 @@ Sign Up  →  Login  →  JWT token saved in cookie  →  Notes page  →  Add /
 ## Project Structure
 
 ```
-notes-app/
+Notes_App/
   app.py              routes, database tables and JWT login
   requirements.txt
   templates/
@@ -103,8 +107,8 @@ You need **Python 3** and **Git** installed.
 **1. Clone the project**
 
 ```
-git clone https://github.com/<your-username>/notes-app.git
-cd notes-app
+git clone https://github.com/Aishwarya26GM/Notes_App.git
+cd Notes_App
 ```
 
 **2. Create a virtual environment (optional but recommended)**
@@ -139,6 +143,20 @@ Go to http://127.0.0.1:5000. Sign up, then log in to start adding notes.
 
 The database file `instance/notes.db` is created automatically on the first run.
 
+## Push to GitHub
+
+First create an empty repository named `Notes_App` on github.com. Then run these commands inside the project folder:
+
+```
+git init
+git add .
+git commit -m "Notes app using Flask and SQLAlchemy"
+git branch -M main
+git remote add origin https://github.com/Aishwarya26GM/Notes_App.git
+git push -u origin main
+```
+
+To push changes later:
 
 ```
 git add .
