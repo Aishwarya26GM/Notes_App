@@ -139,20 +139,6 @@ Go to http://127.0.0.1:5000. Sign up, then log in to start adding notes.
 
 The database file `instance/notes.db` is created automatically on the first run.
 
-## Push to GitHub
-
-First create an empty repository named `notes-app` on github.com. Then run these commands inside the project folder:
-
-```
-git init
-git add .
-git commit -m "Notes app using Flask and SQLAlchemy"
-git branch -M main
-git remote add origin https://github.com/<your-username>/notes-app.git
-git push -u origin main
-```
-
-To push changes later:
 
 ```
 git add .
